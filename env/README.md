@@ -1,3 +1,5 @@
+![CI](https://github.com/TatianaYuryeva/env-js/actions/workflows/web.yml/badge.svg)
+
 # Webpack5
 
 [Руководство по настройке Webpack](https://webpack.js.org/guides/)
