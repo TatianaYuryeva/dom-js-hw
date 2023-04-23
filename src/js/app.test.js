@@ -1,5 +1,5 @@
-//import demo from "./app.js";
-const demo = require('./app.js');
+import demo from "./app.js";
+//const demo = require('./app.js');
 
 describe("Пример теста", () => {
   test.each([
