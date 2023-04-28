@@ -1,6 +1,6 @@
 function createGame() {
-  const goblin = document.createElement("img");
-  goblin.setAttribute("src", "img/goblin.png");
+  const goblin = document.createElement('div');
+  goblin.classList.add('goblin')
 
   const getHole = (index) => document.querySelector(`#hole${index}`);
 
@@ -12,6 +12,10 @@ function createGame() {
   }, 1500);
 }
 
+// const hole = document.querySelector('.hole')
+// const goblin = document.createElement('div');
+// goblin.classList.add('goblin')
+// hole.append(goblin)
 document.addEventListener("DOMContentLoaded", createGame)
 
 export default function demo(value) {
