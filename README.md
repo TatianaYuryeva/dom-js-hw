@@ -2,6 +2,7 @@
 
 ![CI](https://github.com/TatianaYuryeva/dom-js-hw/actions/workflows/web.yml/badge.svg)
 
+GitHub Pages https://tatianayuryeva.github.io/dom-js-hw/
 # Webpack5
 
 [Руководство по настройке Webpack](https://webpack.js.org/guides/)

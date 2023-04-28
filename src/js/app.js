@@ -12,10 +12,6 @@ function createGame() {
   }, 1500);
 }
 
-// const hole = document.querySelector('.hole')
-// const goblin = document.createElement('div');
-// goblin.classList.add('goblin')
-// hole.append(goblin)
 document.addEventListener("DOMContentLoaded", createGame)
 
 export default function demo(value) {
