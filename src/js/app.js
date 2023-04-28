@@ -1,6 +1,6 @@
 function createGame() {
   const goblin = document.createElement("img");
-  goblin.setAttribute("src", "img/goblin.png");
+  goblin.setAttribute("src", "src/img/goblin.png");
 
   const getHole = (index) => document.querySelector(`#hole${index}`);
 

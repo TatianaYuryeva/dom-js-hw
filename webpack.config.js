@@ -19,6 +19,10 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
+      {
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
 };
