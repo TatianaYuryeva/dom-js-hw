@@ -1,11 +1,19 @@
-// TODO: write code here
+function createGame() {
+  const goblin = document.createElement("img");
+  goblin.setAttribute("src", "img/goblin.png");
 
-// comment this to pass build
-const unusedVariable = "variable";
+  const getHole = (index) => document.querySelector(`#hole${index}`);
 
-// for demonstration purpose only
+  const activateHole = (index) => getHole(index).append(goblin);
+
+  const holeInterval = setInterval(() => {
+    const activeHoleIndex = Math.floor(1 + Math.random() * 16);
+    activateHole(activeHoleIndex);
+  }, 1500);
+}
+
+document.addEventListener("DOMContentLoaded", createGame)
+
 export default function demo(value) {
   return `Demo: ${value}`;
 }
-
-console.log("app.js included");

@@ -1,4 +1,6 @@
-![CI](https://github.com/TatianaYuryeva/env-js/actions/workflows/web.yml/badge.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/1g5rlmc9it2c1umk?svg=true)](https://ci.appveyor.com/project/TatianaYuryeva/dom-js-hw)
+
+![CI](https://github.com/TatianaYuryeva/dom-js-hw/actions/workflows/web.yml/badge.svg)
 
 # Webpack5
 
