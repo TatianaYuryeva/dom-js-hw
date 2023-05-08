@@ -4,7 +4,8 @@
   "env": {
     "es6": true,
     "browser": true,
-    "jest/globals": true
+    "jest/globals": true,
+    "amd": true
   },
   "parserOptions": {
     "sourceType": "module"

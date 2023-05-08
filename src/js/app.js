@@ -1,7 +1,7 @@
 function createGame() {
   const goblin = document.createElement("img");
-  const image = require("../img/goblin.png")
-  goblin.setAttribute("src", image)
+  const image = require("../img/goblin.png");
+  goblin.setAttribute("src", image);
 
   const getHole = (index) => document.querySelector(`#hole${index}`);
 
@@ -14,7 +14,7 @@ function createGame() {
   }, 1000);
 }
 
-document.addEventListener("DOMContentLoaded", createGame)
+document.addEventListener("DOMContentLoaded", createGame);
 
 export default function demo(value) {
   return `Demo: ${value}`;
