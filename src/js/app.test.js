@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import demo from "./app.js";
 
 describe("Пример теста", () => {

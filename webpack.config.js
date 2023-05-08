@@ -20,9 +20,13 @@ module.exports = {
         },
       },
       {
-        test: /\.(gif|png|jpe?g|svg)$/i,
-        type: 'asset/resource',
-      },
+          test:/\.(jpg|png|svg)$/,
+          loader: 'file-loader',
+          options:{
+            name: '/img/[sha512:hash:base64:7].[ext]',
+            outputPath :  '/img/',
+          }
+        }
     ],
   },
 };
