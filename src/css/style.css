@@ -22,12 +22,3 @@
     background: #c5c5c5;
     border-radius: 50%;
 }
-
-.goblin {
-    width: 120px;
-    height: 120px;
-    background-image: url('../img/goblin.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}

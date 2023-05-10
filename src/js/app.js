@@ -8,8 +8,13 @@ function createGame() {
   const activateHole = (index) => getHole(index).append(goblin);
 
   const holeInterval = setInterval(() => {
-    const activeHoleIndex = Math.floor(1 + Math.random() * 16);
-    //if (activeHoleIndex === )
+    const hole = goblin.parentElement
+    let activeHoleIndex = Math.floor(1 + Math.random() * 16);
+
+    while(hole !== null && hole.getAttribute("id").slice(4) == activeHoleIndex) {
+      activeHoleIndex = Math.floor(1 + Math.random() * 16);
+    }
+
     activateHole(activeHoleIndex);
   }, 1000);
 }
